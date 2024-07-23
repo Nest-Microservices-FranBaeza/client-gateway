@@ -17,5 +17,6 @@ async function bootstrap() {
     app.useGlobalFilters(new RpcCustomExceptionFilter());
     await app.listen(envs.port);
     logger.log(`Gateway is running on: ${await app.getUrl()}`);
+    console.log('cabmios')
 }
 bootstrap();
