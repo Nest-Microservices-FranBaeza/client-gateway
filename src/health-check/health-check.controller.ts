@@ -5,6 +5,6 @@ export class HealthCheckController {
 
     @Get()
     check() {
-        return 'OK';
+        return 'OK client-gateway';
     }
 }
